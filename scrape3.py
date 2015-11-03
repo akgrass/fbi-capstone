@@ -71,3 +71,5 @@ for city in citylist[24:424]:
 		
 		#Store all post info into post id
 		client.index(index='backpage', doc_type=cityname, id=postid, body=postinfo)
+
+#testtesttest
